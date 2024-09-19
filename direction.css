@@ -1,0 +1,145 @@
+h1 {
+    Font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h4 {
+    Font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pAlign {
+    min-height: 100px;
+}
+
+.standard {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ccc;
+    display: flex;
+}
+
+.child {
+    width: 100px;
+    padding: 10px;
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 42px;
+    max-height: 70px;
+}
+
+.child1 {
+    background-color: red;
+}
+
+.child2 {
+    background-color: green;
+}
+
+.child3 {
+    background-color: blue;
+}
+
+.child4 {
+    background-color: orange;
+}
+
+/* row */
+.parent {
+    flex-direction: row;
+}
+
+/* row reverse */
+.parent2 {
+    flex-direction: row-reverse;
+}
+
+/* column */
+.parent3 {
+    flex-direction: column;
+}
+
+/* column reverse */
+.parent4 {
+    flex-direction: column-reverse;
+}
+
+/* opgave 2  */
+
+/* flex start */
+
+.parent5 {
+    justify-content: flex-start;
+}
+
+/* flex end */
+
+.parent6 {
+    justify-content: flex-end;
+}
+
+/* center */
+
+.parent7 {
+    justify-content: center;
+}
+
+/* space between */
+
+.parent8 {
+    justify-content: space-between;
+}
+
+/* space around */
+
+.parent9 {
+    justify-content: space-around;
+}
+
+/* align items flex start */
+.parent10 {
+    align-items: flex-start;
+}
+
+/* align items flex end */
+.parent11 {
+    align-items: flex-end;
+}
+
+/* align items center */
+.parent12 {
+    align-items: center;
+}
+
+/* flex wrap */
+.parent13 {
+    flex-wrap: wrap;
+}
+
+.wrap {
+    width: 33%;
+}
+
+/* flex end */
+
+.flexend {
+    align-self: flex-end; 
+}
+
+/* order */
+
+.order1 {order: 4;}
+.order2 {order: 2;}
+.order3 {order: 3;}
+.order4 {order: 1;}
+
+/* flex auto */
+.parent16 {
+    flex: auto;
+}
+
+.flexauto {
+    flex: auto;
+}
